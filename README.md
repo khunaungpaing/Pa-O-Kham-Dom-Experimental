@@ -6,15 +6,15 @@
 
 ## ဒေါင်းလုဒ်ဆွဲရန်
 
-[**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](build/pa_o_kham_dom.kmp)
+[**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](release/pa_o_kham_dom-v1.0.kmp)
 
 ## Install လုပ်နည်း
 
 1. Keyman မရှိသေးပါက [Keyman Download](https://keyman.com/en/downloads/) မှ
    သင့် Windows သို့မဟုတ် macOS အတွက် Keyman ကို download လုပ်ပြီး install လုပ်ပါ။
-2. အပေါ်က [Pa-O Kham Dom Experimental (.kmp)](build/pa_o_kham_dom.kmp) ကို
+2. အပေါ်က [Pa-O Kham Dom Experimental (.kmp)](release/pa_o_kham_dom-v1.0.kmp) ကို
    download လုပ်ပါ။
-3. Download လုပ်ထားသော `pa_o_kham_dom.kmp` ကို double-click လုပ်ပြီး Keyman
+3. Download လုပ်ထားသော `pa_o_kham_dom-v1.0.kmp` ကို double-click လုပ်ပြီး Keyman
    package window မှ **Install** ကိုနှိပ်ပါ။
 4. စာရိုက်မည့် application တွင် **Pa-O Kham Dom Experimental** keyboard ကိုရွေးပြီး
    **KhamThaton-Exp** font ကိုရွေးပြီး အသုံးပြုလို့ရပါပြီ။
