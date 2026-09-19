@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>18.0.0.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <WelcomeFile>welcome\welcome.htm</WelcomeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+    <FollowKeyboardVersion />
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items />
+  </StartMenu>
+  <Info>
+    <Name URL="">Pa-O Kham Dom Experimental</Name>
+    <Copyright URL="">Copyright 2026 Khun Aung Paing</Copyright>
+    <Author URL="">Khun Aung Paing</Author>
+    <Description URL="">ASCII/Win font အဟောင်းများကို အစားထိုးအသုံးပြုရန် Windows နှင့် macOS အတွက် စမ်းသပ်ဆဲ Kham Dom ပအိုဝ်း Keyman ကီးဘုတ်။ ပအိုဝ်းနံပါတ်များမှာ တရားဝင် Unicode ဖြစ်သည်။ လိုအပ်နေသေးသော Kham Dom ပုံစံသုံးလုံးကို U+103E (`ှ`)၊ U+1082(`ႂ`) နှင့် U+108F(`ႏ`) ဖြင့် ယာယီအစားထိုးထားသည်။ KhamThaton-Exp font က ပုံမှန်တွင် ပအိုဝ်းပုံစံဖြင့်ပြပြီး ss01 ဖွင့်လျှင် မူရင်း glyph ပုံစံဖြင့်ပြသည်။</Description>
+    <Version URL=""></Version>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\pa_o_kham_dom.kmx</Name>
+      <Description>Pa-O Kham Dom Experimental ကီးဘုတ်</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\pa_o_kham_dom.kvk</Name>
+      <Description>Pa-O Kham Dom Experimental on-screen keyboard</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>Package အချက်အလက်နှင့် စမ်းသပ်ဆဲ encoding အသိပေးချက်</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>welcome\welcome.htm</Name>
+      <Description>Pa-O Kham Dom Experimental စတင်အသုံးပြုနည်း</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>fonts\KhamThaton-Exp-Regular-0.2.ttf</Name>
+      <Description>KhamThaton-Exp Regular တွဲဖက်ဖောင့်</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>fonts\KhamThaton-Exp-Bold-0.2.ttf</Name>
+      <Description>KhamThaton-Exp Bold တွဲဖက်ဖောင့်</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+    <File>
+      <Name>fonts\OFL.txt</Name>
+      <Description>KhamThaton-Exp ဖောင့်၏ SIL Open Font License 1.1</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.txt</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <ID>pa_o_kham_dom</ID>
+      <OSKFont>fonts\KhamThaton-Exp-Regular-0.2.ttf</OSKFont>
+      <DisplayFont>fonts\KhamThaton-Exp-Regular-0.2.ttf</DisplayFont>
+      <Languages>
+        <Language ID="my">Burmese (Myanmar)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings />
+</Package>

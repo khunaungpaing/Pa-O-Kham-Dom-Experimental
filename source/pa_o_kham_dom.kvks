@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pa-O Kham Dom Experimental visual keyboard source.
+  This file affects only the on-screen keyboard labels; typing behavior remains
+  defined by pa_o_kham_dom.kmn.  Combining marks are shown with a dotted circle
+  where useful so their position is clear to the user.
+-->
+<visualkeyboard>
+  <header>
+    <version>10.0</version>
+    <kbdname>pa_o_kham_dom</kbdname>
+    <flags>
+      <displayunderlying />
+    </flags>
+  </header>
+  <encoding name="unicode" fontname="KhamThaton-Exp" fontsize="18">
+    <layer shift="">
+      <key vkey="K_BKQUOTE">&#x1050;</key>
+      <key vkey="K_1">&#x116D1;</key>
+      <key vkey="K_2">&#x116D2;</key>
+      <key vkey="K_3">&#x116D3;</key>
+      <key vkey="K_4">&#x116D4;</key>
+      <key vkey="K_5">&#x116D5;</key>
+      <key vkey="K_6">&#x116D6;</key>
+      <key vkey="K_7">&#x116D7;</key>
+      <key vkey="K_8">&#x116D8;</key>
+      <key vkey="K_9">&#x116D9;</key>
+      <key vkey="K_0">&#x116D0;</key>
+      <key vkey="K_HYPHEN">-</key>
+      <key vkey="K_EQUAL">=</key>
+      <key vkey="K_Q">&#x1006;</key>
+      <key vkey="K_W">&#x1010;</key>
+      <key vkey="K_E">&#x1014;</key>
+      <key vkey="K_R">&#x1019;</key>
+      <key vkey="K_T">&#x1021;</key>
+      <key vkey="K_Y">&#x1015;</key>
+      <key vkey="K_U">&#x1000;</key>
+      <key vkey="K_I">&#x1004;</key>
+      <key vkey="K_O">&#x101E;</key>
+      <key vkey="K_P">&#x1005;</key>
+      <key vkey="K_LBRKT">&#x101F;</key>
+      <key vkey="K_RBRKT">&#x1029;</key>
+      <key vkey="K_BKSLASH">&#x104F;</key>
+      <key vkey="K_A">&#x25CC;&#x1031;</key>
+      <key vkey="K_S">&#x25CC;&#x103B;</key>
+      <key vkey="K_D">&#x25CC;&#x102D;</key>
+      <key vkey="K_F">&#x25CC;&#x103A;</key>
+      <key vkey="K_G">&#x102B;</key>
+      <key vkey="K_H">&#x1037;</key>
+      <key vkey="K_J">&#x25CC;&#x103C;</key>
+      <key vkey="K_K">&#x25CC;&#x102F;</key>
+      <key vkey="K_L">&#x25CC;&#x1030;</key>
+      <key vkey="K_COLON">&#x25CC;&#x1038;</key>
+      <key vkey="K_QUOTE">'</key>
+      <key vkey="K_Z">&#x1016;</key>
+      <key vkey="K_X">&#x1011;</key>
+      <key vkey="K_C">&#x1001;</key>
+      <key vkey="K_V">&#x101C;</key>
+      <key vkey="K_B">&#x1018;</key>
+      <key vkey="K_N">&#x100A;</key>
+      <key vkey="K_M">&#x102C;</key>
+      <key vkey="K_COMMA">&#x108F;</key>
+      <key vkey="K_PERIOD">&#x108B;</key>
+      <key vkey="K_SLASH">/</key>
+      <key vkey="K_SPACE"> </key>
+    </layer>
+    <layer shift="S">
+      <key vkey="K_BKQUOTE">&#x100E;</key>
+      <key vkey="K_1">&#x100D;</key>
+      <key vkey="K_2">&#x1020;</key>
+      <key vkey="K_3">&#x100B;</key>
+      <key vkey="K_4">&#x1053;</key>
+      <key vkey="K_5">&#x1054;</key>
+      <key vkey="K_6">&#x1055;</key>
+      <key vkey="K_7">&#x101B;</key>
+      <key vkey="K_8">*</key>
+      <key vkey="K_9">(</key>
+      <key vkey="K_0">)</key>
+      <key vkey="K_HYPHEN">_</key>
+      <key vkey="K_EQUAL">+</key>
+      <key vkey="K_Q">&#x1008;</key>
+      <key vkey="K_W">&#x101D;</key>
+      <key vkey="K_E">&#x1023;</key>
+      <key vkey="K_R">&#x104E;</key>
+      <key vkey="K_T">&#x1024;</key>
+      <key vkey="K_Y">&#x104C;</key>
+      <key vkey="K_U">&#x1025;</key>
+      <key vkey="K_I">&#x104D;</key>
+      <key vkey="K_O">&#x103F;</key>
+      <key vkey="K_P">&#x100F;</key>
+      <key vkey="K_LBRKT">&#x1027;</key>
+      <key vkey="K_RBRKT">&#x102A;</key>
+      <key vkey="K_BKSLASH">&#x1051;</key>
+      <key vkey="K_A">&#x1017;</key>
+      <key vkey="K_S">&#x25CC;&#x103E;</key>
+      <key vkey="K_D">&#x25CC;&#x102E;</key>
+      <key vkey="K_F">&#x25CC;&#x1039;</key>
+      <key vkey="K_G">&#x25CC;&#x103D;</key>
+      <key vkey="K_H">&#x25CC;&#x1036;</key>
+      <key vkey="K_J">&#x25CC;&#x1032;</key>
+      <key vkey="K_K">&#x1012;</key>
+      <key vkey="K_L">&#x1013;</key>
+      <key vkey="K_COLON">&#x1002;</key>
+      <key vkey="K_QUOTE">&quot;</key>
+      <key vkey="K_Z">&#x1007;</key>
+      <key vkey="K_X">&#x100C;</key>
+      <key vkey="K_C">&#x1003;</key>
+      <key vkey="K_V">&#x1082;</key>
+      <key vkey="K_B">&#x101A;</key>
+      <key vkey="K_N">&#x1009;</key>
+      <key vkey="K_M">&#x1026;</key>
+      <key vkey="K_COMMA">&#x104A;</key>
+      <key vkey="K_PERIOD">&#x104B;</key>
+      <key vkey="K_SLASH">?</key>
+      <key vkey="K_SPACE"> </key>
+    </layer>
+  </encoding>
+</visualkeyboard>

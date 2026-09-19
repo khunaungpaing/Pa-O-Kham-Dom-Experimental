@@ -1,0 +1,209 @@
+c Pa-O Kham Dom Experimental keyboard for Keyman
+c
+c EXPERIMENTAL ENCODING NOTICE
+c This keyboard is an interim input method for Kham Dom Pa-O. Three Kham Dom
+c character forms do not yet have final official Unicode code points. They are
+c represented temporarily by U+103E, U+1082, and U+108F. By default, the
+c companion font renders these as the intended Pa-O forms; enabling OpenType
+c ss01 instead displays the original glyph forms (ှ, ႂ, and the U+108F form).
+c The stored text may require conversion after official Unicode characters
+c become available.
+c
+c The Pa-O digits U+116D0..U+116D9 used below are official
+c Unicode scalar values, not temporary mappings. Do not replace supplementary
+c code points with UTF-16 surrogate halves.
+c
+c Permanent keyboard ID/file stem: pa_o_kham_dom
+c User-facing name: Pa-O Kham Dom Experimental
+c Windows package language association: my (Burmese / Myanmar)
+c Keyboard variety: Kham Dom Pa-O
+c Initial platforms: Windows and macOS
+c Base, Shift, AltGr, and multi-codepoint mappings are preserved from the
+c working pao_unicode.kmn supplied by the keyboard author.
+
+store(&VERSION) '17.0'
+store(&KEYBOARDVERSION) '1.0'
+store(&NAME) 'Pa-O Kham Dom Experimental'
+store(&COPYRIGHT) 'Copyright 2026 Khun Aung Paing'
+store(&TARGETS) 'windows macosx'
+store(&MNEMONICLAYOUT) '0'
+store(&VISUALKEYBOARD) 'pa_o_kham_dom.kvks'
+store(&MESSAGE) 'စမ်းသပ်ဆဲ Kham Dom ပအိုဝ်းကီးဘုတ်ဖြစ်သည်။ ပအိုဝ်းနံပါတ်များသည် တရားဝင် Unicode ဖြစ်သည်။ လိုအပ်နေသေးသော ပုံစံသုံးလုံးကို U+103E၊ U+1082၊ U+108F ဖြင့် ယာယီအစားထိုးထားသည်။ ပုံမှန်အသုံးပြုရာတွင် KhamThaton-Exp font ကိုရွေးပါ။ ss01 ဖွင့်လျှင် အစားထိုးယူထားသော မူရင်း glyph ပုံစံကိုပြသည်။'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+c Number row: official Pa-O digits on the base layer
++ [K_1] > U+116D1
++ [K_2] > U+116D2
++ [K_3] > U+116D3
++ [K_4] > U+116D4
++ [K_5] > U+116D5
++ [K_6] > U+116D6
++ [K_7] > U+116D7
++ [K_8] > U+116D8
++ [K_9] > U+116D9
++ [K_0] > U+116D0
+
+c Shift number row
++ [SHIFT K_1] > U+100D
++ [SHIFT K_2] > U+1020
++ [SHIFT K_3] > U+100B
++ [SHIFT K_4] > U+1053
++ [SHIFT K_5] > U+1054
++ [SHIFT K_6] > U+1055
++ [SHIFT K_7] > U+101B
++ [SHIFT K_8] > '*'
++ [SHIFT K_9] > '('
++ [SHIFT K_0] > ')'
+
+c Letter keys: base and Shift
++ [K_Q] > U+1006
++ [SHIFT K_Q] > U+1008
++ [K_W] > U+1010
++ [SHIFT K_W] > U+101D
++ [K_E] > U+1014
++ [SHIFT K_E] > U+1023
++ [K_R] > U+1019
++ [SHIFT K_R] > U+104E
++ [K_T] > U+1021
++ [SHIFT K_T] > U+1024
++ [K_Y] > U+1015
++ [SHIFT K_Y] > U+104C
++ [K_U] > U+1000
++ [SHIFT K_U] > U+1025
++ [K_I] > U+1004
++ [SHIFT K_I] > U+104D
++ [K_O] > U+101E
++ [SHIFT K_O] > U+103F
++ [K_P] > U+1005
++ [SHIFT K_P] > U+100F
++ [K_A] > U+1031
++ [SHIFT K_A] > U+1017
++ [K_S] > U+103B
++ [SHIFT K_S] > U+103E
++ [K_D] > U+102D
++ [SHIFT K_D] > U+102E
++ [K_F] > U+103A
++ [SHIFT K_F] > U+1039
++ [K_G] > U+102B
++ [SHIFT K_G] > U+103D
++ [K_H] > U+1037
++ [SHIFT K_H] > U+1036
++ [K_J] > U+103C
++ [SHIFT K_J] > U+1032
++ [K_K] > U+102F
++ [SHIFT K_K] > U+1012
++ [K_L] > U+1030
++ [SHIFT K_L] > U+1013
++ [K_Z] > U+1016
++ [SHIFT K_Z] > U+1007
++ [K_X] > U+1011
++ [SHIFT K_X] > U+100C
++ [K_C] > U+1001
++ [SHIFT K_C] > U+1003
++ [K_V] > U+101C
++ [SHIFT K_V] > U+1082
++ [K_B] > U+1018
++ [SHIFT K_B] > U+101A
++ [K_N] > U+100A
++ [SHIFT K_N] > U+1009
++ [K_M] > U+102C
++ [SHIFT K_M] > U+1026
+
+c Punctuation keys
++ [K_HYPHEN] > '-'
++ [SHIFT K_HYPHEN] > '_'
++ [K_EQUAL] > '='
++ [SHIFT K_EQUAL] > '+'
++ [K_LBRKT] > U+101F
++ [SHIFT K_LBRKT] > U+1027
++ [K_RBRKT] > U+1029
++ [SHIFT K_RBRKT] > U+102A
++ [K_COLON] > U+1038
++ [SHIFT K_COLON] > U+1002
++ [K_QUOTE] > "'"
++ [SHIFT K_QUOTE] > '"'
++ [K_BKQUOTE] > U+1050
++ [SHIFT K_BKQUOTE] > U+100E
++ [K_BKSLASH] > U+104F
++ [SHIFT K_BKSLASH] > U+1051
++ [K_COMMA] > U+108F
++ [SHIFT K_COMMA] > U+104A
++ [K_PERIOD] > U+108B
++ [SHIFT K_PERIOD] > U+104B
++ [K_SLASH] > '/'
++ [SHIFT K_SLASH] > '?'
++ [K_SPACE] > ' '
+
+c AltGr layer: Latin characters
++ [RALT K_1] > '1'
++ [SHIFT RALT K_1] > '!'
++ [RALT K_2] > '2'
++ [SHIFT RALT K_2] > '@'
++ [RALT K_3] > '3'
++ [SHIFT RALT K_3] > '#'
++ [RALT K_4] > '4'
++ [SHIFT RALT K_4] > '$'
++ [RALT K_5] > '5'
++ [SHIFT RALT K_5] > '%'
++ [RALT K_6] > '6'
++ [SHIFT RALT K_6] > '^'
++ [RALT K_7] > '7'
++ [SHIFT RALT K_7] > '&'
++ [RALT K_8] > '8'
++ [RALT K_9] > '9'
++ [RALT K_0] > '0'
++ [RALT K_Q] > 'q'
++ [SHIFT RALT K_Q] > 'Q'
++ [RALT K_W] > 'w'
++ [SHIFT RALT K_W] > 'W'
++ [RALT K_E] > 'e'
++ [SHIFT RALT K_E] > 'E'
++ [RALT K_R] > 'r'
++ [SHIFT RALT K_R] > 'R'
++ [RALT K_T] > 't'
++ [SHIFT RALT K_T] > 'T'
++ [RALT K_Y] > 'y'
++ [SHIFT RALT K_Y] > 'Y'
++ [RALT K_U] > 'u'
++ [SHIFT RALT K_U] > 'U'
++ [RALT K_I] > 'i'
++ [SHIFT RALT K_I] > 'I'
++ [RALT K_O] > 'o'
++ [SHIFT RALT K_O] > 'O'
++ [RALT K_P] > 'p'
++ [SHIFT RALT K_P] > 'P'
++ [RALT K_A] > 'a'
++ [SHIFT RALT K_A] > 'A'
++ [RALT K_S] > 's'
++ [SHIFT RALT K_S] > 'S'
++ [RALT K_D] > 'd'
++ [SHIFT RALT K_D] > 'D'
++ [RALT K_F] > 'f'
++ [SHIFT RALT K_F] > 'F'
++ [RALT K_G] > 'g'
++ [SHIFT RALT K_G] > 'G'
++ [RALT K_H] > 'h'
++ [SHIFT RALT K_H] > 'H'
++ [RALT K_J] > 'j'
++ [SHIFT RALT K_J] > 'J'
++ [RALT K_K] > 'k'
++ [SHIFT RALT K_K] > 'K'
++ [RALT K_L] > 'l'
++ [SHIFT RALT K_L] > 'L'
++ [RALT K_Z] > 'z'
++ [SHIFT RALT K_Z] > 'Z'
++ [RALT K_X] > 'x'
++ [SHIFT RALT K_X] > 'X'
++ [RALT K_C] > 'c'
++ [SHIFT RALT K_C] > 'C'
++ [RALT K_V] > 'v'
++ [SHIFT RALT K_V] > 'V'
++ [RALT K_B] > 'b'
++ [SHIFT RALT K_B] > 'B'
++ [RALT K_N] > 'n'
++ [SHIFT RALT K_N] > 'N'
++ [RALT K_M] > 'm'
++ [SHIFT RALT K_M] > 'M'
