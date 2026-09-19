@@ -20,7 +20,7 @@
    **KhamThaton-Exp** font ကိုရွေးပြီး အသုံးပြုလို့ရပါပြီ။
 
 ## Keyboard Layout
-![PaOh Keyboard Layout](source/keyboardLayout.png)
+![PaOh Keyboard Layout](source/layout.png)
 
 ## Unicode အခြေအနေ
 
