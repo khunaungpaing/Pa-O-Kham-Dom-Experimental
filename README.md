@@ -4,7 +4,7 @@
 ပြုလုပ်ထားသော စမ်းသပ်ဆဲ Keyman ကီးဘုတ်နှင့် တွဲဖက်ဖောင့် package ဖြစ်သည်။
 ကီးဘုတ်၏ အမြဲတမ်း ID သည် `pa_o_kham_dom` ဖြစ်သည်။
 
-## ဒေါင်းလုဒ်
+## ဒေါင်းလုဒ်ဆွဲရန်
 
 [**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](build/pa_o_kham_dom.kmp)
 
@@ -18,6 +18,9 @@
    package window မှ **Install** ကိုနှိပ်ပါ။
 4. စာရိုက်မည့် application တွင် **Pa-O Kham Dom Experimental** keyboard ကိုရွေးပြီး
    **KhamThaton-Exp** font ကိုရွေးပြီး အသုံးပြုလို့ရပါပြီ။
+
+## Keyboard Layout
+![PaOh Keyboard Layout](source/keyboardLayout.png)
 
 ## Unicode အခြေအနေ
 
