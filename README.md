@@ -4,9 +4,20 @@
 ပြုလုပ်ထားသော စမ်းသပ်ဆဲ Keyman ကီးဘုတ်နှင့် တွဲဖက်ဖောင့် package ဖြစ်သည်။
 ကီးဘုတ်၏ အမြဲတမ်း ID သည် `pa_o_kham_dom` ဖြစ်သည်။
 
-> **Keyman လိုအပ်သည်။** Windows သို့မဟုတ် macOS တွင်
-> [Keyman](https://keyman.com/en/downloads/) ကို အရင် install လုပ်ပြီး
-> `pa_o_kham_dom.kmp` ကို double-click လုပ်၍ package ကို install လုပ်ပါ။
+## ဒေါင်းလုဒ်
+
+[**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](build/pa_o_kham_dom.kmp)
+
+## Install လုပ်နည်း
+
+1. Keyman မရှိသေးပါက [Keyman Download](https://keyman.com/en/downloads/) မှ
+   သင့် Windows သို့မဟုတ် macOS အတွက် Keyman ကို download လုပ်ပြီး install လုပ်ပါ။
+2. အပေါ်က [Pa-O Kham Dom Experimental (.kmp)](build/pa_o_kham_dom.kmp) ကို
+   download လုပ်ပါ။
+3. Download လုပ်ထားသော `pa_o_kham_dom.kmp` ကို double-click လုပ်ပြီး Keyman
+   package window မှ **Install** ကိုနှိပ်ပါ။
+4. စာရိုက်မည့် application တွင် **Pa-O Kham Dom Experimental** keyboard ကိုရွေးပြီး
+   **KhamThaton-Exp** font ကိုရွေးပြီး အသုံးပြုလို့ရပါပြီ။
 
 ## Unicode အခြေအနေ
 
@@ -41,28 +52,14 @@ converter ကို ထုတ်ပေးမည်။
 ဤ package သည် ASCII/Win-font document အဟောင်းများကို အလိုအလျောက် Unicode သို့
 ပြောင်းပေးသော converter မဟုတ်ပါ။
 
-## Word တွင် အသုံးပြုနည်း
-
-Microsoft Word (Windows/macOS desktop) နှင့် Office desktop apps များသည်
-အဓိကအသုံးပြုရန် ရည်ရွယ်ထားသော software များဖြစ်သည်။
-
-1. Word ကိုဖွင့်ပြီး **Pa-O Kham Dom Experimental** keyboard ကိုရွေးပါ။
-2. Font စာရင်းမှ **KhamThaton-Exp Regular** သို့မဟုတ်
-   **KhamThaton-Exp Bold** ကိုရွေးပါ။
-3. ပုံမှန် ပအိုဝ်းစာရိုက်ရန် `ss01` ကို မဖွင့်ဘဲ စာရိုက်ပါ။
-
 ### `ss01` ဖြင့် မူရင်း glyph ကိုစစ်ဆေးနည်း
 
 `ss01` ကိုဖွင့်လျှင် အထက်ဖော်ပြပါ အစားထိုး Unicode output သုံးခု၏ မူရင်း glyph
 ပုံစံကိုသာ ပြမည်ဖြစ်သည်။ ပအိုဝ်းစာကို ပုံမှန်မြင်ရန် ပြန်ပိတ်ရမည်။
 
-**Word for Windows:** စာကို select လုပ်ပြီး `Home` tab ရှိ **Font** section ၏
-dialog launcher ကိုနှိပ်ပါ၊ သို့မဟုတ် `Ctrl + D` နှိပ်ပါ။ **Advanced** tab မှ
+**Microsoft Word:** စာကို select လုပ်ပြီး `Home` tab ရှိ **Font** section ၏
+dialog launcher ကိုနှိပ်ပါ၊ သို့မဟုတ် `Ctrl + D` (သို့မဟုတ်) `Cmd + D` နှိပ်ပါ။ **Advanced** tab မှ
 **OpenType Features** အောက်ရှိ **Stylistic sets** ကို **Set 1** အဖြစ်ရွေးပါ။
-
-**Word for macOS:** စာကို select လုပ်ပြီး `Format` → `Font…` ကိုဖွင့်ပါ။
-Typography သို့မဟုတ် Advanced section မှ **Stylistic Sets** ကို **Set 1** အဖြစ်
-ရွေးပါ။ Word version အလိုက် menu အမည်အနည်းငယ်ကွဲနိုင်သည်။
 
 ## အခြား software များ
 
@@ -79,5 +76,5 @@ KhamThaton-Exp font ကို အသုံးပြုနိုင်သော s
 
 ## သတိပြုရန်
 
-ဤကီးဘုတ်သည် standard version မဟုတ်ပါ။ Project ပိုင်ရှင်၏ ခွင့်ပြုချက်မရှိဘဲ
+ဤကီးဘုတ်သည် Standard version မဟုတ်ပါ။ Project ပိုင်ရှင်၏ ခွင့်ပြုချက်မရှိဘဲ
 official Keyman catalog သို့ upload သို့မဟုတ် publish မလုပ်ပါနှင့်။
