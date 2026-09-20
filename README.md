@@ -15,6 +15,8 @@
 4. စာရိုက်မည့် application တွင် **Pa-O Kham Dom Experimental** keyboard ကိုရွေးကာ
    **KhamThaton-Exp** font ကိုရွေးပြီးပါက အသုံးပြုလို့ရပါပြီ။
 
+-> [install လုပ်နည်းအဆင့်ဆင့်](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/blob/main/installation%20guide.pdf)
+
 ## Keyboard Layout
 ![PaOh Keyboard Layout](source/layout.png)
 
