@@ -4,20 +4,16 @@
 ပြုလုပ်ထားသော စမ်းသပ်ဆဲ Keyman ကီးဘုတ်နှင့် တွဲဖက်ဖောင့် package ဖြစ်သည်။
 ကီးဘုတ်၏ အမြဲတမ်း ID သည် `pa_o_kham_dom` ဖြစ်သည်။
 
-## ဒေါင်းလုဒ်ဆွဲရန်
-
-[**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom_v1.0.kmp)
-
 ## Install လုပ်နည်း
 
 1. Keyman မရှိသေးပါက [Keyman Download](https://keyman.com/en/downloads/) မှ
    သင့် Windows သို့မဟုတ် macOS အတွက် Keyman ကို download လုပ်ပြီး install လုပ်ပါ။
-2. အပေါ်က [Pa-O Kham Dom Experimental (.kmp)](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom_v1.0.kmp) ကို
+2. [Pa-O Kham Dom Experimental (.kmp)](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom_v1.0.kmp) ကို
    download လုပ်ပါ။
-3. Download လုပ်ထားသော `pa_o_kham_dom-v1.0.kmp` ကို double-click လုပ်ပြီး Keyman
+3. Download လုပ်ထားသော `pa_o_kham_dom_v1.0.kmp` ကို double-click လုပ်ပြီး Keyman
    package window မှ **Install** ကိုနှိပ်ပါ။
-4. စာရိုက်မည့် application တွင် **Pa-O Kham Dom Experimental** keyboard ကိုရွေးပြီး
-   **KhamThaton-Exp** font ကိုရွေးပြီး အသုံးပြုလို့ရပါပြီ။
+4. စာရိုက်မည့် application တွင် **Pa-O Kham Dom Experimental** keyboard ကိုရွေးကာ
+   **KhamThaton-Exp** font ကိုရွေးပြီးပါက အသုံးပြုလို့ရပါပြီ။
 
 ## Keyboard Layout
 ![PaOh Keyboard Layout](source/layout.png)
