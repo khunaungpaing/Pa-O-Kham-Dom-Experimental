@@ -20,7 +20,7 @@
     <Name URL="">Pa-O Kham Dom Experimental</Name>
     <Copyright URL="">Copyright 2026 Khun Aung Paing</Copyright>
     <Author URL="">Khun Aung Paing</Author>
-    <Description URL="">ASCII/Win font အဟောင်းများကို အစားထိုးအသုံးပြုရန် Windows နှင့် macOS အတွက် စမ်းသပ်ဆဲ Kham Dom ပအိုဝ်း Keyman ကီးဘုတ်။ ပအိုဝ်းနံပါတ်များမှာ တရားဝင် Unicode ဖြစ်သည်။ လိုအပ်နေသေးသော Kham Dom ပုံစံသုံးလုံးကို U+103E (`ှ`)၊ U+1082(`ႂ`) နှင့် U+108F(`ႏ`) ဖြင့် ယာယီအစားထိုးထားသည်။ KhamThaton-Exp font က ပုံမှန်တွင် ပအိုဝ်းပုံစံဖြင့်ပြပြီး ss01 ဖွင့်လျှင် မူရင်း glyph ပုံစံဖြင့်ပြသည်။</Description>
+    <Description URL="">ASCII/Win font အဟောင်းများကို အစားထိုးအသုံးပြုရန် Windows နှင့် macOS အတွက် စမ်းသပ်ဆဲ Kham Dom ပအိုဝ်း Keyman ကီးဘုတ်။ ပအိုဝ်းနံပါတ်များမှာ တရားဝင် Unicode ဖြစ်သည်။ လိုအပ်နေသေးသော Kham Dom ပုံစံသုံးလုံးကို U+103E (`ှ`)၊ U+105E(`ၞ`) နှင့် U+108F(`ႏ`) ဖြင့် ယာယီအစားထိုးထားသည်။ KhamThaton-Exp font က ပုံမှန်တွင် ပအိုဝ်းပုံစံဖြင့်ပြပြီး ss01 ဖွင့်လျှင် မူရင်း glyph ပုံစံဖြင့်ပြသည်။</Description>
     <Version URL=""></Version>
   </Info>
   <Files>

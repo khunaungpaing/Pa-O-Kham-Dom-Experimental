@@ -3,7 +3,7 @@ c
 c EXPERIMENTAL ENCODING NOTICE
 c This keyboard is an interim input method for Kham Dom Pa-O. Three Kham Dom
 c character forms do not yet have final official Unicode code points. They are
-c represented temporarily by U+103E, U+1082, and U+108F. By default, the
+c represented temporarily by U+103E, U+105E, and U+108F. By default, the
 c companion font renders these as the intended Pa-O forms; enabling OpenType
 c ss01 instead displays the original glyph forms (ှ, ႂ, and the U+108F form).
 c The stored text may require conversion after official Unicode characters
@@ -28,7 +28,7 @@ store(&COPYRIGHT) 'Copyright 2026 Khun Aung Paing'
 store(&TARGETS) 'windows macosx'
 store(&MNEMONICLAYOUT) '0'
 store(&VISUALKEYBOARD) 'pa_o_kham_dom.kvks'
-store(&MESSAGE) 'စမ်းသပ်ဆဲ Kham Dom ပအိုဝ်းကီးဘုတ်ဖြစ်သည်။ ပအိုဝ်းနံပါတ်များသည် တရားဝင် Unicode ဖြစ်သည်။ လိုအပ်နေသေးသော ပုံစံသုံးလုံးကို U+103E၊ U+1082၊ U+108F ဖြင့် ယာယီအစားထိုးထားသည်။ ပုံမှန်အသုံးပြုရာတွင် KhamThaton-Exp font ကိုရွေးပါ။ ss01 ဖွင့်လျှင် အစားထိုးယူထားသော မူရင်း glyph ပုံစံကိုပြသည်။'
+store(&MESSAGE) 'စမ်းသပ်ဆဲ Kham Dom ပအိုဝ်းကီးဘုတ်ဖြစ်သည်။ ပအိုဝ်းနံပါတ်များသည် တရားဝင် Unicode ဖြစ်သည်။ လိုအပ်နေသေးသော ပုံစံသုံးလုံးကို U+103E၊ U+105E၊ U+108F ဖြင့် ယာယီအစားထိုးထားသည်။ ပုံမှန်အသုံးပြုရာတွင် KhamThaton-Exp font ကိုရွေးပါ။ ss01 ဖွင့်လျှင် အစားထိုးယူထားသော မူရင်း glyph ပုံစံကိုပြသည်။'
 
 begin Unicode > use(main)
 
@@ -104,7 +104,7 @@ c Letter keys: base and Shift
 + [K_C] > U+1001
 + [SHIFT K_C] > U+1003
 + [K_V] > U+101C
-+ [SHIFT K_V] > U+1082
++ [SHIFT K_V] > U+105E
 + [K_B] > U+1018
 + [SHIFT K_B] > U+101A
 + [K_N] > U+100A
