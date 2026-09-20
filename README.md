@@ -6,13 +6,13 @@
 
 ## ဒေါင်းလုဒ်ဆွဲရန်
 
-[**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom-v1.0.kmp)
+[**Pa-O Kham Dom Experimental (.kmp) ကို ဒေါင်းလုဒ်လုပ်ရန်**](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom_v1.0.kmp)
 
 ## Install လုပ်နည်း
 
 1. Keyman မရှိသေးပါက [Keyman Download](https://keyman.com/en/downloads/) မှ
    သင့် Windows သို့မဟုတ် macOS အတွက် Keyman ကို download လုပ်ပြီး install လုပ်ပါ။
-2. အပေါ်က [Pa-O Kham Dom Experimental (.kmp)](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom-v1.0.kmp) ကို
+2. အပေါ်က [Pa-O Kham Dom Experimental (.kmp)](https://github.com/khunaungpaing/Pa-O-Kham-Dom-Experimental/releases/download/v1.0/pa_o_kham_dom_v1.0.kmp) ကို
    download လုပ်ပါ။
 3. Download လုပ်ထားသော `pa_o_kham_dom-v1.0.kmp` ကို double-click လုပ်ပြီး Keyman
    package window မှ **Install** ကိုနှိပ်ပါ။
